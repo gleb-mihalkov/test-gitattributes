@@ -5,7 +5,7 @@ index_content = ''
 for i in range(1, 3000):
     file_path = 'src/file-' + str(i) + '.styl'
     file = open(file_path, 'w')
-    file_content = ".class-" + str(i) + "\n\tbackground: white"
+    file_content = ".class-" + str(i) + "\n\tbackground: red"
     file.write(file_content)
     file.close()
 
